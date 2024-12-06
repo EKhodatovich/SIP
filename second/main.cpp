@@ -6,7 +6,7 @@
 
 int main()
 {
-    cv::Mat image = cv::imread("c:\\151089.jpg");
+    cv::Mat image = cv::imread("151089.jpg");
     if (image.empty()) {
         std::cout << "Could not open or find the image";
         return 0;

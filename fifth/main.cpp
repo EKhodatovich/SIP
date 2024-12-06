@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-    cv::Mat image = cv::imread("c:\\image.jpeg");
+    cv::Mat image = cv::imread("image.jpeg");
     if (image.empty()) {
         std::cerr << "Could not open or find the image";
         throw std::invalid_argument("Bad iamge");

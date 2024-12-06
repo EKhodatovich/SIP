@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent)
     // new_image_(new (Mat))
 {
     ui->setupUi(this);
-    Mat image = imread("c:\\image.jpeg");
+    Mat image = imread("image.jpeg");
     if (image.empty()) {
         std::cout << "Could not open or find the image";
         throw std::invalid_argument("Bad iamge");
