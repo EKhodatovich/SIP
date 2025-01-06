@@ -45,3 +45,7 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 **/build/*
+
+*.jpg
+*.png
+*.ipynb_checkpoints
